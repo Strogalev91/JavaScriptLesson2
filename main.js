@@ -30,15 +30,15 @@ const array = [
 ];
 const correctSequence = [3, 7, 0, 8, 11, 5, 9, 6, 4, 1, 12, 2, 10];
 const unitedStrings = correctSequence.reduce((unitedStrings, number) => [...unitedStrings, array[number]], []);
-const result = unitedStrings.join (' ');
+const result = unitedStrings.join(' ');
 console.log(result);
 
 //Task#4
-const name = (firstName, lastName) => {
+const getFullName = (firstName, lastName) => {
 	const fullName = `${firstName} ${lastName}`;
 	console.log(fullName);
 };
-name('Ilia', 'Strogalev');
+getFullName('Ilia', 'Strogalev');
 
 //Task#5
 let oddNumbers = 21;
